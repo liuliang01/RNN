@@ -1,6 +1,6 @@
 #coding:utf8
 import copy, numpy as np, time, sys, os
-np.random.seed(0) #固定随机数生成器的种子，便于得到固定的输出，【译者注：完全是为了方便调试用的]
+np.random.seed(0) #固定随机数生成器的种子，便于得到固定的输出
 # compute sigmoid nonlinearity
 def sigmoid(x): #激活函数
     output = 1/(1+np.exp(-x))
