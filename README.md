@@ -1,0 +1,2 @@
+# RNN
+code of rnn
